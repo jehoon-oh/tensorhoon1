@@ -28,4 +28,4 @@ class Samsung:
     # Token 변환
     def change_token(texts):
         tokens  = word_tokenize(texts)
-        print(tokens[:300])
+        print(tokens[:200])
